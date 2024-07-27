@@ -1,0 +1,27 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing dependencies...
+      # Install any dependencies here, e.g., npm install, pip install, etc.
+      - echo Dependencies installed.
+
+  pre_build:
+    commands:
+      - echo Preparing build environment...
+      # Commands that prepare the environment can be placed here.
+      - echo Build environment prepared.
+
+  build:
+    commands:
+      - echo Starting build...
+      - echo "Hello World"
+      - echo "The secret token is $MY_SECRET_TOKEN"
+      - echo Build completed.
+
+  post_build:
+    commands:
+      - echo Post-build actions...
+      # Commands to execute after the build, e.g., tests, packaging, etc.
+      - echo Post-build actions completed.
