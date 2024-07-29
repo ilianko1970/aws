@@ -9,6 +9,7 @@ phases:
 
   pre_build:
     commands:
+      - exit 1
       - echo Preparing build environment...
       # Commands that prepare the environment can be placed here.
       - echo Build environment prepared.
