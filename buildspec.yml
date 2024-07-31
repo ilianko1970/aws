@@ -19,7 +19,8 @@ phases:
       - echo "Hello World"
       - echo "The secret token is $MY_SECRET_TOKEN"
       - echo Build completed.
-      - exit 1
+      - sleep 10
+      - exit 0
   post_build:
     commands:
       - echo Post-build actions...
