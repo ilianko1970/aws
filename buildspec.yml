@@ -22,7 +22,6 @@ phases:
 
   post_build:
     commands:
-      - exit 1
       - echo Post-build actions...
       # Commands to execute after the build, e.g., tests, packaging, etc.
       - echo Post-build actions completed.
